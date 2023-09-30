@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: instafont;
+    src: url(assets/fonts/chicago_4/Chicago.otf);
+}
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#main{
+    margin: 0px auto;
+    width: 340px;
+}
+
+.instaform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.4px solid rgba(147, 147, 147, 0.534);
+    height: 400px;
+    width: 340px;
+    margin-top: 15px;
+}
+
+.instaform form h1 {
+    font-family: instafont;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+    font-size: 45px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.instaform form input {
+    display: block;
+    width: 280px;
+    outline: none;
+    border: 0.4px solid rgba(147, 147, 147, 0.534);
+    background-color: rgba(201, 201, 201, 0.073);
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin: 8px 0px;
+    padding: 10px 8px;
+}
+
+.instaform form button {
+    width: 280px;
+    padding: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 8px;
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(1, 196, 250);
+}
+
+.instaform .p{
+    text-align: center;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(67, 67, 67, 0.742);
+    margin: 8px 0px 14px 0px;
+}
+
+.instaform form img{
+    height: 16px;
+    width: 15px;
+    margin-right: 3px;
+}
+
+.instaform form a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(20, 20, 118, 0.863);
+}
+
+.instaform .fbimga{
+    text-align: center;
+}
+
+.instaform .p2{
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgba(67, 67, 67, 0.9);
+    margin: 14px 0px 0px 0px;
+}
+
+/* 2nd part */
+
+.divtwo{
+    height: 45px;
+    width: 340px;
+    border: 0.4px solid rgba(147, 147, 147, 0.534);
+    margin: 10px 0px;
+    text-align: center;
+
+}
+
+.divtwo p{
+    display: inline-block;
+    font-family:  'Calibri', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.divtwo a{
+    text-decoration: none;
+    color: rgb(0, 164, 235); 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* div three */
+
+.divthree p{
+    text-align: center;
+    font-family:  'Calibri', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(19, 19, 19);
+    margin: 14px 0px;
+}
+
+.divthree .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin: 10px 0px 15px 0px;
+}
+.divthree .img1{
+    width: 135px;
+    height: 40px;
+}
+
+.divthree .img2{
+    width: 105px;
+    height: 40px;
+}
